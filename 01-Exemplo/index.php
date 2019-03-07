@@ -17,7 +17,7 @@
         $c1 ->marca = "FIAT";
         $c1 ->cor = "Vermelha";
         $c1 ->combustivel ="Flex";
-        $c1 ->ligado = true;
+        $c1 ->ligado = true;  #ao mudar para false o comportamento será alterado.
         print_r($c1);
         $c1->dirigir();
     ?>
